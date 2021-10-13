@@ -18,7 +18,7 @@ The State of the agent is represented as a list of size 5, where the first 3 ind
             
             state[3] =   1    if fruit is located above Head
                         -1    if fruit is located below Head
-                         0    if fruit located on X-Axis`
+                         0    if fruit located on X-Axis
             state[4] =   1    if fruit is Rightwards wrt Head
                         -1    if fruit is Leftwards wrt Head
                          0    if fruit is on Y-Axis wrt Head
@@ -30,11 +30,13 @@ In the given Environment, Actions are predefined with respect to the grid, which
 - Move RIGHT
 - Move DOWN
 - Move LEFT
+
 which do not depend on the agent's direction. To reduce the number of state-action pairs, the action space is redefined, knowing that the agent could not move backward under any case.
 Thus, knowing the direction in which the Snake's Head is present, 3 action are defined as:
 - Move Left
 - Move Forward
 - Move Right
+
 Thus, these actions together with the state space gives 72x3 = 216 state-action pairs, each state with 3 possible actions.
 ### Rewards
 A +1 reward is returned when a snake eats a fruit.
