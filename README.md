@@ -1,5 +1,6 @@
 # Snake_Game_AI
 This project is focussed at solving the Snake Game using Tabular Reinforcement Learning Techniques
+![](https://i.imgur.com/vZEg6jM.gif)
 
 ## Approach
 ### State Space
