@@ -1,5 +1,10 @@
 # Snake_Game_AI
+This project was a part of Summer Intern Program at [IvLabs](https://www.ivlabs.in/), the AI and Robotics Community of VNIT.
+
+[LINK](https://github.com/IvLabs/Summer-Projects/tree/main/Summer%202021/Snake%20Game%20AI) to complete and updated version of the project.
+
 This project is focussed at solving the Snake Game using Tabular Reinforcement Learning Techniques
+
 ![](https://i.imgur.com/vZEg6jM.gif)
 
 ## Approach
